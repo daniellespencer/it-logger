@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types'
 import { getTechs } from '../../actions/techActions';
@@ -9,7 +9,7 @@ const TechListModal = ({ getTechs, tech: { techs, loading} }) => {
 
     useEffect(() => {
         getTechs();
-        //eslint-disbale-next-line
+        // eslint-disbale-next-line
     }, []);
     
     return (

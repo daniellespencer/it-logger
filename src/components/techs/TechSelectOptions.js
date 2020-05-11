@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 const TechSelectOptions = ({ getTechs, tech: { techs, loading }}) => {
     useEffect(() => {
         getTechs();
-        //eslint-disable-next-line
+        // eslint-disable-next-line
 
     }, [])
 
